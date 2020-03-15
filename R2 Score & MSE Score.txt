@@ -1,0 +1,10 @@
+Age -> Potential  (Univariate Linear Regression)
+-------------------------------------------------
+R2 score: 0.06685411465049873
+MSE score: 35.427406577949796
+
+
+Age, Overall -> Potential (Multivariate Linear Regression)
+-----------------------------------------------------------
+R2 score: 0.8192587598612738
+MSE score: 6.861942489731126
