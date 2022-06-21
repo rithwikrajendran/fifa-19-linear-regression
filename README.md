@@ -1,9 +1,16 @@
-A sample linear regression project where we take EA Sports' FIFA 19 player dataset from Kaggle and peform linear regression to correlate a player's potential rating with other factors/parameters like age, overall rating etc..
+# Linear Regression on FIFA 19 data
 
-Steps Followed -
+## Introduction
 
-1. Download the dataset. Link - (https://www.kaggle.com/karangadiya/fifa19/data) 
-2. player_data_import.py - Import all the necessary libraries and also read the dataset.
-3. player_data_preparation.py - Plot a very basic scatter plot with Age & Potential. Here, we also prepare the data and split the dataset into train and test sets.
-4. player_data_train.py - Fit the training data to our model followed by which we predict and create the validation set. In the end, we calculate the R2 score as well as the mean squared error score (MSE). The model performs better if R2 score is closer to 1 and MSE is closer to 0.
-5. R2 Score & MSE Score.txt - Contains R2 score and MSE score of one run of both univariate as well as multivariate linear regressions respectively.
+In this pet project, I tried linear regression on EA Sports FIFA 19 player dataset made available on Kaggle. A player's potential rating was predicted using variables like the player's age, player's overall rating in the game etc. The dataset is available on the following link - https://www.kaggle.com/karangadiya/fifa19/data 
+
+### Short Description of the files
+
+1. **player_data_import.py** - Importing necessary libraries and reading the data.
+2. **player_data_preparation.py** - Basic data exploration, visualisation and data preparation.
+3. **player_data_train.py** - Model training, prediction and performance evaluation. This is where the real work happens.
+5. **R2 Score & MSE Score.txt** - Contains R2 score and MSE score of one run of both univariate as well as multivariate linear regressions respectively.
+
+## Conclusion
+
+We do end up with good $R^2$-score (closer to 1), which means our model generalises well and the line of best fit is a good fit for our data. We have a small mean squared error as well, indicating that we ended up with a good model when we went with multiple linear regression.
